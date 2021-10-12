@@ -7,8 +7,57 @@
 
 
 /* COMMON */
+
 img{
     width: 100%;
 }
 
+.main{
+    width: 100%;
+    height: 100vh;
+}
+
+.nav{
+    position:fixed;
+    top: 30px;
+    right: 30px;
+
+}
+
+.options li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    font-weight:600;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    line-height: 50px;
+    background-color: white;
+    margin-right: 30px;
+}
+
+li a{
+    list-style-type: none;
+    color:black;
+    text-decoration:solid;
+}
+
+
 /* END COMMON */
+
+/* MAIN */
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+/* end MAIN */
